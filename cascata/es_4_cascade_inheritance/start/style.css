@@ -6,7 +6,7 @@ blockquote {
   background-color: rgba(0, 12, 24, 0.05);
 }
 
-.content1 {
+.content1 p {
   border-width: 2px;
   border-style: double;
   border-color: rgb(0, 55, 255);
@@ -24,6 +24,7 @@ em {
   background-color: greenyellow;
   color: black;
   font-weight: bold;
+  font-style: inherit;
 }
 
 ul {
