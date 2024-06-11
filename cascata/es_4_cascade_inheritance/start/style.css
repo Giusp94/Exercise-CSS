@@ -3,8 +3,13 @@ body {
 }
 
 blockquote {
-  border: 1 solid red;
   background-color: rgba(0, 12, 24, 0.05);
+}
+
+.content1 {
+  border-width: 2px;
+  border-style: double;
+  border-color: rgb(0, 55, 255);
 }
 
 a {
@@ -30,16 +35,16 @@ ul li {
 }
 
 .link1 a {
-  color: blue;
-  padding: 0%;
+  color: inherit;
+  padding: inherit;
 }
 
 .link2 a {
-  color: blue;
-  padding: 0%;
+  color: initial;
+  padding: initial;
 }
 
 .link3 a {
-  color: blue;
-  padding: 0%;
+  color: unset;
+  padding: unset;
 }
